@@ -687,6 +687,10 @@ video {
   background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-X-Desktop-LHD');
 }
 
+.bg-\[url\(\'https\:\/\/digitalassets\.tesla\.com\/tesla-contents\/image\/upload\/f_auto\2c q_auto\:best\/Desktop_Accessories\'\)\] {
+  background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto:best/Desktop_Accessories');
+}
+
 .bg-cover {
   background-size: cover;
 }
