@@ -683,6 +683,10 @@ video {
   background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_2400,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-Y-Global-Desktop');
 }
 
+.bg-\[url\(\'https\:\/\/digitalassets\.tesla\.com\/tesla-contents\/image\/upload\/h_1800\2c w_2880\2c c_fit\2c f_auto\2c q_auto\:best\/Homepage-Model-X-Desktop-LHD\'\)\] {
+  background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-X-Desktop-LHD');
+}
+
 .bg-cover {
   background-size: cover;
 }
