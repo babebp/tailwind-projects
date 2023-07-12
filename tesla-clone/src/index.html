@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="../dist/output.css" />
   </head>
   <body>
-    <!-- Header -->
     <div
-      class="bg-[url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-NA.jpg')] h-screen bg-center bg-cover"
+      class="relative bg-[url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_2400,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-Y-Global-Desktop')] h-screen bg-center bg-cover"
     >
+      <!-- Header -->
       <div class="pt-5 flex justify-between font-bold items-center">
         <div class="ml-8">
           <svg
@@ -26,20 +26,72 @@
         </div>
         <div class="hidden lg:inline">
           <ul class="flex space-x-2 text-sm">
-            <li class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer">Model S</li>
-            <li class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer">Model 3</li>
-            <li class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer">Model X</li>
-            <li class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer">Model Y</li>
-            <li class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer">Solar Roof</li>
-            <li class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer">Solar Panels</li>
+            <li
+              class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer"
+            >
+              Model S
+            </li>
+            <li
+              class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer"
+            >
+              Model 3
+            </li>
+            <li
+              class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer"
+            >
+              Model X
+            </li>
+            <li
+              class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer"
+            >
+              Model Y
+            </li>
+            <li
+              class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer"
+            >
+              Solar Roof
+            </li>
+            <li
+              class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer"
+            >
+              Solar Panels
+            </li>
           </ul>
         </div>
         <div class="">
           <ul class="flex space-x-4 mr-2 text-sm">
-            <li class="cursor-pointer hover:bg-slate-300 hover:rounded-full py-1 px-3">Shop</li>
-            <li class="cursor-pointer hover:bg-slate-300 hover:rounded-full py-1 px-3">Account</li>
-            <li class="cursor-pointer hover:bg-slate-300 hover:rounded-full py-1 px-3">Menu</li>
+            <li
+              class="cursor-pointer hover:bg-slate-300 hover:rounded-full py-1 px-3"
+            >
+              Shop
+            </li>
+            <li
+              class="cursor-pointer hover:bg-slate-300 hover:rounded-full py-1 px-3"
+            >
+              Account
+            </li>
+            <li
+              class="cursor-pointer hover:bg-slate-300 hover:rounded-full py-1 px-3"
+            >
+              Menu
+            </li>
           </ul>
+        </div>
+        <div class="flex flex-col absolute top-20 left-[50%] translate-x-[-50%]">
+          <h1 class="text-[40px] m-auto font-bold">Model Y</h1>
+          <p class="whitespace-nowrap pt-1 text-[16px]">
+            Order Online for
+            <span class="underline underline-offset-4 hover:decoration-2 cursor-pointer">Touchless Delivery</span>
+          </p>
+        </div>
+        <div class="absolute bottom-[80px] left-[50%] translate-x-[-50%] flex flex-col md:flex-row md:space-x-4">
+          <button class="uppercase bg-gray-800 w-96 h-10 text-white rounded-full md:w-60">Custom order</button>
+          <button class="mt-2 md:mt-0 uppercase bg-slate-200 w-96 h-10 text-gray-900 rounded-full md:w-60">Existing Inventory</button>
+        </div>
+        <div class="absolute bottom-3 left-[50%] translate-x-[-50%]">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 animate-bounce">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg>          
         </div>
       </div>
     </div>
